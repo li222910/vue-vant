@@ -4,7 +4,7 @@
             <van-tabbar-item icon="home-o">外卖</van-tabbar-item>
             <van-tabbar-item icon="search">搜索</van-tabbar-item>
             <van-tabbar-item icon="bill-o">订单</van-tabbar-item>
-            <van-tabbar-item icon="friends-o">我的</van-tabbar-item>
+            <van-tabbar-item icon="friends-o">我的1111</van-tabbar-item>
         </van-tabbar>
     </div>
 </template>
