@@ -5,9 +5,12 @@ import App from './App'
 import router from './router'
 import Vant from "vant"
 import "vant/lib/index.css"
+import request from "./ajax.js"
 
-
+//全局注册vant
 Vue.use(Vant);
+//将axios作为vue原型对象上的属性进行使用
+Vue.prototype.$http=request;
 
 Vue.config.productionTip = false
 
